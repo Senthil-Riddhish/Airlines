@@ -1,0 +1,31 @@
+{
+  "name": "airlines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "mongoose": "^6.0.10",
+    "multer": "^1.4.3",
+    "node": "^16.10.0",
+    "path": "^0.12.7"
+  },
+  "keywords": [
+    "AIRLINES",
+    "Node",
+    "APIs",
+    "Mongodb",
+    "Express"
+  ],
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
