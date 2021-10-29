@@ -1,6 +1,5 @@
 const mongoose=require('mongoose');
-const password=encodeURIComponent(`Mayurie`);
-const URL=`mongodb+srv://riddhishwar:Mayurie@cluster0.son3w.mongodb.net/Airlines?retryWrites=true&w=majority`;
+const URL=//
 mongoose.connect(URL,{
     useNewUrlParser:true,
     useUnifiedTopology:true
